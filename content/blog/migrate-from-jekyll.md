@@ -3,7 +3,7 @@ title = "区块链助力制造业产业升级"
 date = "2015-10-10T13:07:31+02:00"
 tags = ["ipsum"]
 categories = ["lorem"]
-banner = "/img/banners/banner-5.jpg"
+banner = "img/banners/banner-5.jpg"
 +++
 
  11月23日，2018中国工业互联网大会在广州召开。广东省副省长陈良贤、工业和信息化部总工程师张峰出席会议并致辞。
