@@ -28,13 +28,13 @@ paginate = 10
 
 [[menu.main]]
     name = "Contact"
-    url  = "/contact/"
+    url  = "/   /"
     weight = 4
 
 [[menu.main]]
-    name = "test"
+    name = "Test"
     url  = "/test/"
-    weight = 4
+    weight = 5
 # Topbar的超链接
 
 [[menu.topbar]]
@@ -63,7 +63,7 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
+    author = "张伟"
     defaultKeywords = ["区块链", "物数", "科技"]
     defaultDescription = "Site template made by devcows using hugo"
     googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
