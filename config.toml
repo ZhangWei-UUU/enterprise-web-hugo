@@ -6,16 +6,10 @@ languageCode = "zh_CN"
 defaultContentLanguage = "zh"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "devcows"
-# Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-
-# Define the number of posts per page
+# 新闻每页的数量
 paginate = 10
-
 [menu]
-
-# 导航菜单
-
 [[menu.main]]
     name = "主页"
     url  = "/"
@@ -37,6 +31,10 @@ paginate = 10
     url  = "/contact/"
     weight = 4
 
+[[menu.main]]
+    name = "test"
+    url  = "/test/"
+    weight = 4
 # Topbar的超链接
 
 [[menu.topbar]]
@@ -60,42 +58,21 @@ paginate = 10
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:your@email.com"
+    url = "mailto:kanseefoil@gmail.com"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
     author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
+    defaultKeywords = ["区块链", "物数", "科技"]
     defaultDescription = "Site template made by devcows using hugo"
-
-    # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
-
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
-
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-    #
-    # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
-
+    style = "red"
+    email = "kanseefoil@gmail.com"
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
-
-    # Format dates with Go's time formatting
-    date_format = "January 2, 2006"
-
+    copyright = "Copyright (c) 2018 - 2019, YourCompany; all rights reserved."
+    date_format = "January 2, 2016"
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
     address = """<p><strong>Universal Ltd.</strong>
@@ -130,41 +107,29 @@ paginate = 10
 
 [params.carousel]
     enable = true
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more informtion take a look at the README.
 
 [params.features]
     enable = true
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more informtion take a look at the README.
 
 [params.testimonials]
     enable = true
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more informtion take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    title = "客户评价"
+    subtitle = "独立的组件：/partials/testimonial.html"
 
 [params.see_more]
     enable = true
     icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    title = "更多内容?"
+    subtitle = "独立的组件：/partials/see_more.html"
     link_url = "#"
-    link_text = "Check other homepages"
+    link_text = "点击进入"
 
 [params.clients]
     enable = true
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more informtion take a look at the README.
-    title = "Our Clients"
-    subtitle = ""
+    title = "我们的客户"
+    subtitle = "独立的组件：/partials/clients.html"
 
 [params.recent_posts]
     enable = true
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    title = "新闻动态"
+    subtitle = "独立的组件：/partials/recent_posts.html"
