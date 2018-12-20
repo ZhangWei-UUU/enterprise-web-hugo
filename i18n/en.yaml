@@ -1,12 +1,6 @@
 - id: home
   translation: "Home"
 
-- id: templateBy
-  translation: "Template by"
-
-- id: portedBy
-  translation: "Ported to Hugo by"
-
 - id: contactGoTo
   translation: "Go to contact page"
 

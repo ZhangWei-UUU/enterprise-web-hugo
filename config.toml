@@ -9,6 +9,7 @@ disqusShortname = "devcows"
 googleAnalytics = ""
 # 新闻每页的数量
 paginate = 10
+# weight 表示菜单的顺序
 [menu]
 [[menu.main]]
     name = "主页"
@@ -16,50 +17,31 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
-    name = "Blog"
+    name = "热点新闻"
     url  = "/blog/"
     weight = 2
 
 [[menu.main]]
-    name = "FAQ"
+    name = "我们的业务"
     identifier = "faq"
     url  = "/faq/"
     weight = 3
 
 [[menu.main]]
-    name = "Contact"
-    url  = "/   /"
+    name = "关于我们"
+    url  = "/contact/"
     weight = 4
 
 [[menu.main]]
-    name = "Test"
+    name = "区块链学习"
     url  = "/test/"
     weight = 5
 # Topbar的超链接
 
 [[menu.topbar]]
     weight = 1
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fa fa-2x fa-github'></i>"
-
-[[menu.topbar]]
-    weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 4
-    name = "Email"
-    url = "mailto:kanseefoil@gmail.com"
-    pre = "<i class='fa fa-2x fa-envelope'></i>"
+    name = "English"
+    url = "/en"
 
 [params]
     viewMorePostLink = "/blog/"
@@ -71,17 +53,14 @@ paginate = 10
     style = "red"
     email = "kanseefoil@gmail.com"
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2018 - 2019, YourCompany; all rights reserved."
+    copyright = "Copyright © WUSHU 2018-2019. All Rights Reserved. 沪ICP备18023735号-2"
     date_format = "January 2, 2016"
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
+    address = """<p><strong>物数（上海）信息科技有限公司</strong>
+        <br>上海市浦东新区龙阳路2277号11楼1101室 
         <br>
-        <strong>Great Britain</strong>
+        <strong></strong>
       </p>
       """
     latitude = "-12.043333"
@@ -93,7 +72,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+    text = """<p class="hidden-sm hidden-xs">Tel: +021 xxxx xxxx or zhumin@umarkcloud.cn</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
@@ -111,25 +90,14 @@ paginate = 10
 [params.features]
     enable = true
 
-[params.testimonials]
+[params.aboutlist]
     enable = true
-    title = "客户评价"
-    subtitle = "独立的组件：/partials/testimonial.html"
-
-[params.see_more]
-    enable = true
-    icon = "fa fa-file-code-o"
-    title = "更多内容?"
-    subtitle = "独立的组件：/partials/see_more.html"
-    link_url = "#"
-    link_text = "点击进入"
+    title = "关于我们"
 
 [params.clients]
     enable = true
     title = "我们的客户"
-    subtitle = "独立的组件：/partials/clients.html"
 
 [params.recent_posts]
     enable = true
     title = "新闻动态"
-    subtitle = "独立的组件：/partials/recent_posts.html"

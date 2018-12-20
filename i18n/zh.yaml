@@ -1,20 +1,14 @@
 - id: home
   translation: "主页"
 
-- id: templateBy
-  translation: "模板来自"
-
-- id: portedBy
-  translation: "移植到 Hugo 来自"
-
 - id: contactGoTo
-  translation: "跳到联系页面"
+  translation: "联系我们"
 
 - id: contactAddrTitle
   translation: "地址"
 
 - id: contactTitle
-  translation: "联系"
+  translation: "联系我们"
 
 - id: contactForm
   translation: "联系表单"
@@ -56,7 +50,7 @@
   translation: "由"
 
 - id: recentPosts
-  translation: "最新博客"
+  translation: "新闻速递"
 
 - id: aboutUs
   translation: "关于我们"

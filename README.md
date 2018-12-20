@@ -30,3 +30,10 @@ keywords = ["关键字"]
 
 在`content/xx.md` 关键的参数是`id`，这个参数的设置与否决定了当前页面使用的是使用默认的`single.html`还是与其id对应的自定义模板。
 
+#### Go语言模板语法解释
+
+```go
+{{ if gt (len .Site.Data.features) 0 }}
+```
+
+如果`data/features`文件夹下`yaml`文件长度大于1
