@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on 物数科技</title>
+    <link>https://umarkcloud.com/blog/</link>
+    <description>Recent content in Blogs on 物数科技</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh_CN</language>
+    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
+    
+	<atom:link href="https://umarkcloud.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>区块链助力制造业产业升级</title>
+      <link>https://umarkcloud.com/blog/2015/10/10/migrate-from-jekyll/</link>
+      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      
+      <guid>https://umarkcloud.com/blog/2015/10/10/migrate-from-jekyll/</guid>
+      <description>&lt;p&gt;11月23日，2018中国工业互联网大会在广州召开。广东省副省长陈良贤、工业和信息化部总工程师张峰出席会议并致辞。&lt;/p&gt;
+
+&lt;p&gt;本次大会由广东省工业和信息化厅、广东省通信管理局、中国信息通信研究院、工业互联网产业联盟主办，工业和信息化部、广东省人民政府指导。本次大会以“互联融合、智造转型”为主题，展现当前工业互联网发展的最新成果，探讨融合发展的最新路径。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linked post</title>
+      <link>https://umarkcloud.com/blog/2015/10/02/linked-post/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://umarkcloud.com/blog/2015/10/02/linked-post/</guid>
+      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
+menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
+    </item>
+    
+    <item>
+      <title>Go is for lovers</title>
+      <link>https://umarkcloud.com/blog/2015/09/17/go-is-for-lovers/</link>
+      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
+      
+      <guid>https://umarkcloud.com/blog/2015/09/17/go-is-for-lovers/</guid>
+      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.</description>
+    </item>
+    
+    <item>
+      <title>Hugo is for lovers</title>
+      <link>https://umarkcloud.com/blog/2015/08/03/hugo-is-for-lovers/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      
+      <guid>https://umarkcloud.com/blog/2015/08/03/hugo-is-for-lovers/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title>Creating a new theme</title>
+      <link>https://umarkcloud.com/blog/2015/06/24/creating-a-new-theme/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      
+      <guid>https://umarkcloud.com/blog/2015/06/24/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+  </channel>
+</rss>

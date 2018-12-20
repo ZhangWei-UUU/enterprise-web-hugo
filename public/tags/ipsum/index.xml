@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ipsum on 物数科技</title>
+    <link>https://umarkcloud.com/tags/ipsum/</link>
+    <description>Recent content in Ipsum on 物数科技</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh_CN</language>
+    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
+    
+	<atom:link href="https://umarkcloud.com/tags/ipsum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>区块链助力制造业产业升级</title>
+      <link>https://umarkcloud.com/blog/2015/10/10/migrate-from-jekyll/</link>
+      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      
+      <guid>https://umarkcloud.com/blog/2015/10/10/migrate-from-jekyll/</guid>
+      <description>&lt;p&gt;11月23日，2018中国工业互联网大会在广州召开。广东省副省长陈良贤、工业和信息化部总工程师张峰出席会议并致辞。&lt;/p&gt;
+
+&lt;p&gt;本次大会由广东省工业和信息化厅、广东省通信管理局、中国信息通信研究院、工业互联网产业联盟主办，工业和信息化部、广东省人民政府指导。本次大会以“互联融合、智造转型”为主题，展现当前工业互联网发展的最新成果，探讨融合发展的最新路径。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
