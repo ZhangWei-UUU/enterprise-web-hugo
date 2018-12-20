@@ -1,4 +1,4 @@
-baseurl = "https://umarkcloud.com"
+baseurl = "https://umarkcloud.com/"
 staticDir="/"
 title = "物数科技"
 theme = "hugo-universal-theme"
