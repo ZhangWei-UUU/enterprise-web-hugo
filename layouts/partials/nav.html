@@ -21,12 +21,25 @@
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
                   {{ range .Site.Menus.main }}
-                  <li class="dropdown">
+                  <li>
                     {{ if .HasChildren }}
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
+                      <a href="#" class="dropdown-toggle dropright" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      {{ .Name }}
+                       <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       {{ range .Children }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                            {{ if .HasChildren }}
+                                <li class="">
+                                    <a href="#" class="dropdown-item dropdown-toggle" data-toggle="dropdown">{{ .Name }}</a>
+                                     <ul class="dropdown-menu">
+                                       {{ range .Children }}
+                                          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                                       {{ end }}
+                                    </ul>
+                                </li>
+                            {{ else }}
+                                <li ><a href="{{ .URL }}" class="dropdown-item">{{ .Name }}</a></li>
+                            {{ end  }}
                       {{ end }}
                     </ul>
                     {{ else }}

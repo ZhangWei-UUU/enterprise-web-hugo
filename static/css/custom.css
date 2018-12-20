@@ -6,3 +6,46 @@
 #small-logo {
     height: 40px;
 }
+
+/*//Copy this css*/
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(64, 64, 64);
+}
+.btco-menu li > a {
+    padding: 10px 15px;
+    color: #000;
+
+}
+
+.btco-menu .active a:focus,
+.btco-menu li a:focus ,
+.navbar > .show > a:focus{
+    background: transparent;
+    outline: 0;
+}
+
+.dropdown-menu{
+    width: 100%;
+    min-width: 180px;
+}
+
+.dropdown-menu .show > .dropdown-toggle::after{
+    transform: rotate(-90deg);
+}
+
+.navbar ul.nav > li > a {
+    text-decoration:none
+}
+
+.dropdown-menu li{
+    position: relative;
+}
+
+.dropdown-menu a {
+    display: inline-block;
+}
+
+#post-content {
+    font-size: 16px;
+    line-height: 30px;
+}
