@@ -113,8 +113,8 @@ paginate = 10
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
     copyright = "Copyright © WUSHU 2018-2019. All Rights Reserved. 沪ICP备18023735号-2"
     date_format = "Jan 2, 2006"
-    logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    logo = "/img/logo.png"
+    logo_small = "/img/logo-small.png"
     address = """<p><strong>物数（上海）信息科技有限公司</strong>
         <br>上海市浦东新区龙阳路2277号11楼1101室 
         <br>
