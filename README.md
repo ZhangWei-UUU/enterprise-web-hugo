@@ -54,31 +54,31 @@ Site 变量查询列表
 | .Site.AllPages |    所有的页面       |   Array      |
 | .Site.BaseURL  |    当前网站的基础url，一般为`/`   |   String      |
 | .Site.Author   | 网站作者       |String |
-| .Site.Taxonomies   | 网站作者       |String |
-| .Site.Title   | 网站作者       |String |
-| .Site.BuildDrafts   | 网站作者       |String |
-| .Site.Copyright   | 网站作者       |String |
-| .Site.Data   | 网站作者       |String |
+| .Site.Taxonomies   | 网站逻辑，是Hugo的重要特性 |String |
+| .Site.Title   | 网站标题      |String |
+| .Site.BuildDrafts   | 默认情况值为false, 网站是否安装配置文件生成草稿     | boolean |
+| .Site.Copyright   | 网站Copyright   |String |
+| .Site.Data   | 自定义网站数据      |String |
 | .Site.DisqusShortname   | 网站作者       |String |
-| .Site.Files   | 网站作者       |String |
-| .Site.GoogleAnalytics  | 网站作者       |String |
-| .Site.Home   | 网站作者       |String |
-| .Site.IsMultiLingual  | 网站作者       |String |
-| .Site.IsServer  | 网站作者       |String |
+| .Site.Files   | 网站所有的资源文件  |String |
+| .Site.GoogleAnalytics  | 使用GoogleAnalytics对网站进行追踪数据分析 |String |
+| .Site.Home   | 主页设置，在hugo中主页的设置不同于其他页面      |String |
+| .Site.IsMultiLingual  | 当前网站是否为多语言网站  | boolean |
+| .Site.IsServer  | 表示当前网站是否使用自带的hugo server  | boolean |
 | .Site.Language.Lang  | 网站作者       |String |
-| .Site.Language.LanguageName  | 网站作者       |String |
-| .Site.Language.Weight  | 网站作者       |String |
-| .Site.Language  | 网站作者       |String |
-| .Site.LanguageCode  | 网站作者       |String |
-| .Site.LanguagePrefix  | 网站作者       |String |
+| .Site.Language.LanguageName  | 语言名称：如English,Chinese    |String |
+| .Site.Language.Weight  | 语言序列       |String |
+| .Site.Language  | 当前使用语言       |String |
+| .Site.LanguageCode  | 语言代码，用于配置文件      |String |
+| .Site.LanguagePrefix  |用于语言切换设置前缀  |String |
 | .Site.Languages  | 网站作者       |String |
-| .Site.LastChange  | 网站作者       |String |
-| .Site.Menus  | 网站作者       |String |
-| .Site.Pages  | 网站作者       |String |
-| .Site.Permalinks  | 网站作者       |String |
-| .Site.RegularPages  | 网站作者       |String |
-| .Site.RSSLink  | 网站作者       |String |
-| .Site.Sections  | 网站作者       |String |
+| .Site.LastChange  |       |String |
+| .Site.Menus  | 网站主菜单    |String |
+| .Site.Pages  | 以时期进行排序，最新的日期页面排在第一位 | Array |
+| .Site.Permalinks  | 网站链接路由设置       |String |
+| .Site.RegularPages  |        |String |
+| .Site.RSSLink  |       |String |
+| .Site.Sections  | 网站顶级文件夹 |String |
 
 
 ### .Site.Params/[Pramas] 的使用。
