@@ -32,6 +32,12 @@ keywords = ["关键字"]
 
 ## Hugo 的变量世界
 
+
+### Font Matter
+
+Font Matter 可以写在yaml, toml, json格式的内容文件中。toml 文件使用 `+++` 框起来， yaml 文件使用`---`框起来。
+
+
 ### Site 变量
 
 Site变量是Hugo框架中的全局变量，其中的大部分的变量是在配置文件中声明定义。
